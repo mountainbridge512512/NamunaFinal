@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+body {
+  @apply bg-transparent;
+}
+/* src/index.css or in a global CSS file */
+html {
+  scroll-behavior: smooth;
+}
+

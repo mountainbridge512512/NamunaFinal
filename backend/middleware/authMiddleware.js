@@ -11,6 +11,6 @@ module.exports = (req, res, next) => {
     req.adminId = decoded.id;
     next();
   } catch (err) {
-    res.status(401).json({ message: 'Token invalid' });
+  return res.status(401).json({ message: 'Token invalid' });
   }
 };
